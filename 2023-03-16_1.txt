@@ -1,0 +1,186 @@
+2023-03-16 01:03:52.147499
+
+- Model 1 -
+hidden nodes: 5 
+epochs: 100 
+init: small_random 
+active: relu 
+optimize: sgd 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:77.06%
+Training Time:217.738 s
+Epoch with hightest Train accuracy:99, 7.8e+01%
+Epoch with hightest Val accuracy:95, 7.8e+01%
+--------------------------------------------------
+- Model 2 -
+hidden nodes: 8 
+epochs: 100 
+init: small_random 
+active: relu 
+optimize: sgd 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:79.37%
+Training Time:228.337 s
+Epoch with hightest Train accuracy:99, 8e+01%
+Epoch with hightest Val accuracy:95, 8.2e+01%
+--------------------------------------------------
+- Model 3 -
+hidden nodes: 11 
+epochs: 100 
+init: small_random 
+active: relu 
+optimize: sgd 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:79.74%
+Training Time:215.619 s
+Epoch with hightest Train accuracy:98, 8.1e+01%
+Epoch with hightest Val accuracy:96, 8.2e+01%
+--------------------------------------------------
+- Model 4 -
+hidden nodes: 11 
+epochs: 200 
+init: small_random 
+active: relu 
+optimize: sgd 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:81.47%
+Training Time:407.712 s
+Epoch with hightest Train accuracy:199, 8.4e+01%
+Epoch with hightest Val accuracy:192, 8.4e+01%
+--------------------------------------------------
+- Model 5 -
+hidden nodes: 11 
+epochs: 300 
+init: small_random 
+active: relu 
+optimize: sgd 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:82.39%
+Training Time:687.762 s
+Epoch with hightest Train accuracy:292, 8.7e+01%
+Epoch with hightest Val accuracy:296, 8.4e+01%
+--------------------------------------------------
+- Model 6 -
+hidden nodes: 11 
+epochs: 100 
+init: xavier 
+active: relu 
+optimize: sgd 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:79.04%
+Training Time:218.956 s
+Epoch with hightest Train accuracy:98, 8e+01%
+Epoch with hightest Val accuracy:96, 8e+01%
+--------------------------------------------------
+- Model 7 -
+hidden nodes: 11 
+epochs: 100 
+init: kaiming 
+active: relu 
+optimize: sgd 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:79.69%
+Training Time:251.959 s
+Epoch with hightest Train accuracy:94, 8.1e+01%
+Epoch with hightest Val accuracy:99, 8.2e+01%
+--------------------------------------------------
+- Model 8 -
+hidden nodes: 11 
+epochs: 100 
+init: kaiming 
+active: tanh 
+optimize: sgd 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:76.54%
+Training Time:249.872 s
+Epoch with hightest Train accuracy:99, 7.8e+01%
+Epoch with hightest Val accuracy:95, 7.8e+01%
+--------------------------------------------------
+- Model 9 -
+hidden nodes: 11 
+epochs: 100 
+init: kaiming 
+active: tanh 
+optimize: momentum 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:81.96%
+Training Time:241.731 s
+Epoch with hightest Train accuracy:98, 9.2e+01%
+Epoch with hightest Val accuracy:74, 8.4e+01%
+--------------------------------------------------
+- Model 10 -
+hidden nodes: 11 
+epochs: 100 
+init: kaiming 
+active: tanh 
+optimize: adam 
+schedule: None 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:80.24%
+Training Time:244.008 s
+Epoch with hightest Train accuracy:94, 9.8e+01%
+Epoch with hightest Val accuracy:26, 8.4e+01%
+--------------------------------------------------
+- Model 11 -
+hidden nodes: 11 
+epochs: 100 
+init: kaiming 
+active: tanh 
+optimize: adam 
+schedule: cos 
+weight decay: 0.0
+--------------------------------------------------
+Model Accuracy:79.9%
+Training Time:229.027 s
+Epoch with hightest Train accuracy:98, 9.9e+01%
+Epoch with hightest Val accuracy:6, 8.2e+01%
+--------------------------------------------------
+- Model 12 -
+hidden nodes: 11 
+epochs: 100 
+init: kaiming 
+active: tanh 
+optimize: adam 
+schedule: cos 
+weight decay: 0.001
+--------------------------------------------------
+Model Accuracy:81.26%
+Training Time:247.849 s
+Epoch with hightest Train accuracy:6, 9.9e+01%
+Epoch with hightest Val accuracy:74, 8.2e+01%
+--------------------------------------------------
+- Model 13 -
+hidden nodes: 11 
+epochs: 100 
+init: kaiming 
+active: tanh 
+optimize: adam 
+schedule: cos 
+weight decay: 0.0001
+--------------------------------------------------
+Model Accuracy:80.26%
+Training Time:240.744 s
+Epoch with hightest Train accuracy:92, 1e+02%
+Epoch with hightest Val accuracy:43, 8.2e+01%
+--------------------------------------------------
+
+Top 3 Model:model5,model9,model4
